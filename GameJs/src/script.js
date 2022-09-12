@@ -21,3 +21,16 @@ for (let i=0; i<excel.length; i++) {
     excel[x].setAttribute('pusY', y);
     x++;
 }
+
+function generateSnake() {
+    let posX = Math.round(Math.random() * (10-1) + 1);
+    let posY = Math.round(Math.random() * (10-1) + 1);
+    return [posX, posY];
+}
+
+let coordinates = generateSnake();
+let snakeBody = [document.querySelector('[posX = "' + coordinates[0] + '"][posY = "' + coordinates[1] + '"]')];
+
+console.log(coordinates);
+console.log(snakeBody);
+

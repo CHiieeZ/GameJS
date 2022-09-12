@@ -17,3 +17,13 @@ body{
     height: 50px;
     padding: 5px;
 }
+.snakebody{
+    background: #31741b;
+    background-size: cover;
+    border-radius: 50%;
+}
+.head{
+    background: #74211b;
+    background-size: cover;
+    border-radius: 10%;
+}
